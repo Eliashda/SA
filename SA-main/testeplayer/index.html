@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.6.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <nav class="nav-bar">
+        <header>
+            <div class="perfil">
+                <i class="ri-user-fill"></i>
+            </div>
+            <div class="image-text">
+                <a href="jt.html">
+                    <img src="sheldon.png" alt="inicio">
+                </a>
+            </div>
+            <div class="settings-icon">
+                <i class="ri-settings-5-fill"></i>
+            </div>
+        </header>
+    </nav>
+
+    <main class="player-area">
+        <div class="album-info">
+            <img src="sheldon.png" alt="Frank Sinatra">
+            <h2>Fly Me to the Moon</h2>
+            <p>Frank Sinatra</p>
+            <div class="controls">
+                <button id="prev"><i class="ri-skip-back-fill"></i></button>
+                <button id="play-pause"><i class="ri-play-fill"></i></button>
+                <button id="next"><i class="ri-skip-forward-fill"></i></button>
+                <div class="progress">
+                    <input type="range" id="progress-bar" min="0" max="100" value="0">
+                </div>
+                <button id="like"><i class="ri-thumb-up-fill"></i></button>
+            </div>
+        </div>
+        <aside class="playlist">
+            <h3>Playlist</h3>
+            <ul>
+                <li>From the Start - Laufey</li>
+                <li>Die Another Day - Jack White</li>
+                <li>Mr Lonely - Bobby Vinton</li>
+                <li>Skyfall - Adele</li>
+                <li>Monaco</li>
+            </ul>
+        </aside>
+    </main>
+</body>
+</html>
